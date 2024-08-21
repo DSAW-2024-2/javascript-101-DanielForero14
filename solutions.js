@@ -5,21 +5,21 @@ function sum(a, b) {
     console.log("Los datos de entrada no son adecuados"); //Mensaje pro
     return;
   }
-  return a + b; // Si pasa el fintro pum respuesta 
+  return a + b; // Si pasa el filtro pum respuesta 
 }
 
 // Factorial of a Number
 function factorial(n) {
   // Add your code here
   if (typeof n !== 'number' || n < 0) { // Aplicamos la no pasas mi rey
-    console.log("Los datos de entrada no son adecuados"); //Mensaje pro
+    console.log("Los datos de entrada no son adecuados"); // Mensaje pro
     return;  
   }
-  if (n === 0 || n === 1) { //Si el numerito es 0 o 1 pues tin tambien es 1 
+  if (n === 0 || n === 1) { // Si el numerito es 0 o 1 pues tin tambien es 1 
     return 1;
   }
   let result = 1; // Inicializamos en 1
-  for (let i = 2; i <= n; i++) { //El for para operar
+  for (let i = 2; i <= n; i++) { // El for para operar
     result *= i;
   }
   return result;
